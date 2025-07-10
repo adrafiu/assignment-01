@@ -1,4 +1,21 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
 /* nav section */
+/* .header-section {
+  width: auto;
+  height: 1440px;
+} */
 .hero-section {
   background-image: url("../Assets/Hero-bg.png");
 }
@@ -73,4 +90,61 @@ nav ul li {
 }
 .action-img {
   border-radius: 48px;
+}
+/* productive-section style */
+/* .productive-section {
+  background-color: rgba(145, 123, 123, 0.233);
+  
+
+} */
+.productive-section-h3-style {
+  font-weight: bold;
+  font-size: 25px;
+}
+.productive-users {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+.productive-user-h3-size {
+  font-size: 40px;
+  font-weight: bold;
+}
+/* touch-section style */
+.touch-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 150px;
+}
+.touch-title {
+  font-weight: bold;
+  font-size: 35px;
+}
+.touch-form {
+  padding: 100px;
+  
+}
+form input[type="text"],
+form input[type="email"] {
+  padding: 10px 34px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+textarea {
+  padding: 10px 34px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  /* direction: ltr; */
+}
+.touch-btn {
+  color: white;
+  background-color: #4e47ff;
+  width: 125%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
 }
