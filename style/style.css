@@ -1,0 +1,76 @@
+/* nav section */
+.hero-section {
+  background-image: url("../Assets/Hero-bg.png");
+}
+.nav-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+/* .nav-section {
+} */
+nav-section,
+nav ul li {
+  list-style: none;
+}
+/* text center */
+.text-center {
+  text-align: center;
+}
+/* color section */
+.primary-color {
+  color: #4e47ff;
+}
+/* logo style */
+.logo {
+  color: #4e47ff;
+  font-size: 34px;
+  cursor: pointer;
+}
+/* button style */
+.nav-btn {
+  background-color: #4e47ff;
+  color: white;
+  font-size: 16px;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* banner style */
+.banner-title {
+  font-weight: bold;
+  font-size: 40px;
+}
+.banner-section {
+  color: #252432;
+  padding: 100px;
+}
+/*  */
+.action-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+}
+.action-title {
+  color: #252432;
+  font-size: 30px;
+  margin-bottom: 23px;
+}
+.action-description {
+  color: #252432;
+  font-size: 15px;
+  /* margin-bottom: 10px; */
+}
+.action-btn {
+  color: white;
+  background-color: #4e47ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 12px 36px;
+}
+.action-img {
+  border-radius: 48px;
+}
