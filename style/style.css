@@ -242,8 +242,11 @@ p {
   color: #252432;
 }
 .img-size {
+  width: 35%;
+  /* height: 100%; */
   border-radius: 100%;
 }
 .feedback-image {
   padding: 15px;
 }
+
