@@ -58,6 +58,9 @@ nav ul li {
   border-radius: 5px;
   cursor: pointer;
 }
+.nav-btn:hover {
+  background-color: purple;
+}
 /* banner style */
 .banner-title {
   font-weight: bold;
@@ -93,6 +96,9 @@ nav ul li {
   border-radius: 5px;
   cursor: pointer;
   padding: 12px 36px;
+}
+.action-btn:hover {
+  background-color: purple;
 }
 .action-img {
   border-radius: 48px;
@@ -177,6 +183,9 @@ textarea {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+.touch-btn:hover{
+  background-color: purple;
 }
 /* footer section style */
 .parent-footer {
