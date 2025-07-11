@@ -79,8 +79,8 @@ nav ul li {
   margin-bottom: 23px;
 }
 .action-description {
-  color: #252432;
-  font-size: 15px;
+  color: #8987a1;
+  font-size: 18px;
   /* margin-bottom: 10px; */
 }
 .action-btn {
@@ -95,14 +95,11 @@ nav ul li {
   border-radius: 48px;
 }
 /* productive-section style */
-/* .productive-section {
-  background-color: rgba(145, 123, 123, 0.233);
-  
 
-} */
 .productive-section-h3-style {
   font-weight: bold;
   font-size: 25px;
+  margin: 5px 50px;
 }
 .productive-users {
   display: flex;
@@ -110,9 +107,15 @@ nav ul li {
   gap: 45px;
 }
 .productive-user-h3-size {
-  font-size: 40px;
+  font-size: 65px;
   font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 1px;
 }
+.productive-user-description {
+  color: #8987a1;
+}
+
 /* touch-section style */
 .touch-section {
   display: flex;
