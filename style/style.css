@@ -63,6 +63,9 @@ nav ul li {
 .banner-section {
   color: #252432;
   padding: 100px;
+  /* margin: 0 auto; */
+  /* display: flex; */
+  align-items: center;
 }
 /*  */
 .action-section {
@@ -123,7 +126,6 @@ nav ul li {
 }
 .touch-form {
   padding: 100px;
-  
 }
 form input[type="text"],
 form input[type="email"] {
@@ -147,4 +149,23 @@ textarea {
   margin-top: 5px;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
+}
+/* footer section style */
+.parent-footer {
+  text-align: center;
+}
+.child-footer-two {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  color: #8987a1;
+}
+.child-footer h1 {
+  color: #4e47ff;
+  font-weight: bold;
+  font-size: 50px;
+}
+.child-footer p {
+  color: #8987a1;
 }
